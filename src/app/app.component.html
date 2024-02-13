@@ -1,0 +1,8 @@
+<h1 [style.color]="selectedColor">Color Changing App</h1>
+<app-section 
+    *ngFor="let section of sections" 
+    [title]="section.title" 
+    [body]="section.body" 
+    [color]="section.color" 
+    (colorChange)="changePageColor($event)">
+</app-section>

@@ -1,0 +1,5 @@
+<div [style.border]="'2px solid ' + color" style="margin: 10px; padding: 10px;">
+    <h2>{{ title }}</h2>
+    <p>{{ body }}</p>
+    <button (click)="setColor()" [style.background-color]="color">Set {{ color }}</button>
+  </div>
