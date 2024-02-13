@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Preview
 
-![](https://github.com/jiayao99/angular-color-changing-component/blob/master/demo.gif)
+![](https://github.com/jiayao99/angular-color-changing-component/blob/main/demo.gif)
 
 ## Development server
 
